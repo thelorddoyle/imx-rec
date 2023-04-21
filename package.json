@@ -1,11 +1,10 @@
 {
-  "name": "spanish-app",
+  "name": "imx-rec-app",
   "version": "1.0.0",
-  "description": "spanish app",
+  "description": "imx rec app server",
   "main": "index.ts",
   "scripts": {
-    "test": "test",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+    "test": "test"
   },
   "author": "",
   "license": "ISC",
