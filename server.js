@@ -47,6 +47,7 @@ app.post("/assess-code-quality", async (req, res) => {
     });
     res.json({ result: response.data.choices[0].message?.content });
   } catch (error) {
+    console.error("Error in /assess-code-quality:", error);
     res
       .status(500)
       .json({ error: "An error occurred while processing your request." });
